@@ -1,7 +1,7 @@
 :root {
     --primary-color: #003B5C;
-    --secondary-color: #0e81a0;
-    --accent1-color: #B37400;
+    --secondary-color: #005B8C;
+    --accent1-color: #915F00;
     --accent2-color: #F0F8FF;
     --heading-font: "Montserrat", "Trebuchet MS", sans-serif;
     --body-font: "Open Sans", "Helvetica Neue", sans-serif;
@@ -56,7 +56,7 @@ article {
 
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     background-color: var(--secondary-color);
     color: var(--accent2-color);
@@ -67,7 +67,7 @@ h1 {
     opacity: 0.8;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 60%;
     left: 25px;
@@ -82,7 +82,7 @@ article {
     width: 15%;
     margin: 10px;
     border: 1px solid var(--accent2-color);
-    box-shadow: inset;
+    box-shadow: aqua;
     border-radius: 1ch;
 }
 
