@@ -85,9 +85,9 @@ article {
 
 .socialmedia {
     display: flex;
-    flex-direction: space-between;
     max-width: fit-content;
     gap: 8px;
+    justify-content: flex-end;
 }
 
 .socialmedia a {
