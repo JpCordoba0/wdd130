@@ -33,7 +33,7 @@ header {
     justify-items: center;
     align-items: center;
     gap: 20px;
-    background-color: var(--secondary-color);
+    background-color: #298F6F;
     margin-bottom: 10px;
     margin-top: 10px;
     opacity: 0.9;
